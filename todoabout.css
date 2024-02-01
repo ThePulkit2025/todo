@@ -1,0 +1,35 @@
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 400px;
+}
+
+.aboutimage {
+    margin: 10px;
+}
+
+#facebook {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 22px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+#facebook:hover {
+    transform: translateY(-10px);
+}
+
+.aboutcontent {
+    display: flex;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    justify-content: center;
+}
+

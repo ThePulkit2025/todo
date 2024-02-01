@@ -1,0 +1,88 @@
+.loginbox {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 500px;
+    height: 600px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.bigbox {
+    margin-top: 100px;
+}
+
+.input::placeholder {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.line1 {
+    width: 25%;
+    height: 2px;
+    background-color: rgb(184, 188, 194);
+    margin-left: 90px;
+}
+
+.line2 {
+    width: 25%;
+    height: 2px;
+    background-color: rgb(184, 188, 194);
+   
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.imglast {
+    border-radius: 100%;
+    transition: 2s;
+}
+
+
+.googlebox:hover {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+
+.googlebox {
+    background-color: white;
+    transition: 2s;
+    display: flex;
+    align-items: center;
+    display: flex;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 50px;
+    border-radius: 100%;
+}
+
+.googlelink {
+    color: white;
+    transition-delay: 4s;
+    transition: 5s;
+}
+
+.googlebox:hover .googlelink {
+    color: black;
+}
+
+.imglast:hover .googlelink {
+    display: contents;
+}
+
+
+@media screen and (max-width: 970px) {
+    .loginimg {
+        display: none;
+    }
+}
+
